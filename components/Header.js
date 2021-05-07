@@ -13,16 +13,16 @@ function Header() {
                 </div>
             </div>
 
-            <div className="flex flex-1  justify-between items-center text-gray-600">
-                <HomeIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100" />
-                <VideoCameraIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100" />
-                <ShoppingBagIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100" />
-                <UserGroupIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100" />
-                <ViewGridAddIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100" />
+            <div className="flex w-full max-w-2xl  justify-center items-center text-gray-600">
+                <HomeIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
+                <VideoCameraIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
+                <ShoppingBagIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
+                <UserGroupIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
+                <ViewGridAddIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
             </div>
 
             <div className="flex flex-1 justify-end w-3/12">
-                <div className="flex items-center hover:bg-gray-300 rounded-full p-2">
+                <div className="flex items-center hover:bg-gray-300 rounded-full p-2 cursor-pointer">
                     <Image
                         className="rounded-full object-cover"
                         src="https://images.unsplash.com/photo-1542178243-bc20204b769f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwZmFjZXxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -33,10 +33,10 @@ function Header() {
                     <h3 className="pl-2 pr-4">Syaril</h3>
                 </div>
                 <div className="flex items-center space-x-2">
-                    <TemplateIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300" />
-                    <ChatAltIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300" />
-                    <BellIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300" />
-                    <ChevronDownIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300" />
+                    <TemplateIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
+                    <ChatAltIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
+                    <BellIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
+                    <ChevronDownIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
                 </div>
 
             </div>
