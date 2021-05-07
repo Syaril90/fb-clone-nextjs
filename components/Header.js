@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Header() {
     return (
-        <nav className="flex p-1 shadow">
+        <nav className="flex px-3 py-1 shadow">
             <div className="flex items-center w-3/12 space-x-2">
                 <Image className="object-cover" width={40} height={40} src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" />
                 <div className="flex space-x-1 p-2 items-center bg-gray-100 rounded-full">
