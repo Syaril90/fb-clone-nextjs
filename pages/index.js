@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
@@ -11,8 +12,15 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main>
+
+      <main className="flex h-screen w-full bg-gray-100">
+        <div className="flex w-3/12">
+          <Sidebar />
+        </div>
+        <div className="flex flex-1"></div>
+        <div className="flex w-3/12"></div>
       </main>
+
       <footer>
       </footer>
     </div >
