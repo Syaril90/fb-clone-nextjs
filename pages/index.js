@@ -21,7 +21,7 @@ export default function Home() {
           <Sidebar />
         </div>
         {/* center */}
-        <div className="flex flex-col flex-1 overflow-y-auto">
+        <div className="flex flex-col flex-1 overflow-y-auto p-2">
           <StoryRail/>
           <CreateStatus />
         </div>
