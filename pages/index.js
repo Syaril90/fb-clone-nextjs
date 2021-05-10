@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import CreateStatus from '../components/CreateStatus'
+import StoryRail from '../components/StoryRail'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
         {/* center */}
         <div className="flex flex-col flex-1">
+          <StoryRail/>
           <CreateStatus />
         </div>
         {/* right */}
