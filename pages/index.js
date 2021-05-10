@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
+import CreateStatus from '../components/CreateStatus'
 
 export default function Home() {
   return (
@@ -14,10 +15,15 @@ export default function Home() {
       <Header />
 
       <main className="flex h-screen w-full bg-gray-100">
+        {/* left */}
         <div className="flex w-3/12">
           <Sidebar />
         </div>
-        <div className="flex flex-1"></div>
+        {/* center */}
+        <div className="flex flex-col flex-1">
+          <CreateStatus />
+        </div>
+        {/* right */}
         <div className="flex w-3/12"></div>
       </main>
 
