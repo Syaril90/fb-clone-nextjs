@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar'
 import CreateStatus from '../components/CreateStatus'
 import StoryRail from '../components/StoryRail'
 import OnlineFriend from '../components/OnlineFriend'
+import Posts from '../components/Posts'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           <StoryRail />
           <CreateStatus />
           <OnlineFriend />
+          <Posts/>
         </div>
         {/* right */}
         <div className="flex w-3/12"></div>
