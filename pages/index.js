@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 import CreateStatus from '../components/CreateStatus'
 import StoryRail from '../components/StoryRail'
+import OnlineFriend from '../components/OnlineFriend'
 
 export default function Home() {
   return (
@@ -22,8 +23,9 @@ export default function Home() {
         </div>
         {/* center */}
         <div className="flex flex-col flex-1 overflow-y-auto p-2">
-          <StoryRail/>
+          <StoryRail />
           <CreateStatus />
+          <OnlineFriend />
         </div>
         {/* right */}
         <div className="flex w-3/12"></div>
