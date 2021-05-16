@@ -5,7 +5,7 @@ function CreateStatus() {
                 <img className="rounded-full h-10 w-10" src="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.6435-1/p148x148/134099197_104736451567861_27448157104481838_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=dbb9e7&_nc_ohc=lVCSydGdU7cAX_Avgym&_nc_ht=scontent.fkul14-1.fna&tp=6&oh=ecf7da5a1a9e1078c68b785654769b49&oe=60BD5C4E" alt="Syaril" />
                 <input className="rounded-full bg-gray-100 flex flex-1 outline-none p-2" placeholder="Whats on your mind, Syaril" />
             </div>
-            <div className="flex justify-evenly pt-1">
+            <div className="flex justify-evenly pt-2">
                 <div className="flex space-x-2 p-2 hover:bg-gray-100 rounded-lg flex-1 items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />

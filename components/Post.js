@@ -1,6 +1,6 @@
 function Post() {
     return (
-        <div className="flex flex-col p-3 rounded-lg bg-white">
+        <div className="flex flex-col p-3 rounded-lg my-2 bg-white shadow-md">
             <div className="flex space-x-2">
                 <img className="rounded-full h-10 w-10" src="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.6435-1/p148x148/134099197_104736451567861_27448157104481838_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=dbb9e7&_nc_ohc=lVCSydGdU7cAX_Avgym&_nc_ht=scontent.fkul14-1.fna&tp=6&oh=ecf7da5a1a9e1078c68b785654769b49&oe=60BD5C4E" alt="Syaril" />
                 <div className="flex flex-col justify-center">
