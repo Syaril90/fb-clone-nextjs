@@ -29,6 +29,7 @@ function Sidebar() {
                 <SidebarOption imageUrl="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.6435-0/cp0/c164.0.422.422a/s75x225/82627190_1235770976614549_8102199368586625024_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=ca434c&_nc_ohc=rQu-h9TDWIQAX-5z6Dk&_nc_ht=scontent.fkul14-1.fna&tp=28&oh=fcb5950fa6035e3ba7480b08a1cd8d15&oe=60BD72A7" text="Learn HTML" />
                 <SidebarOption imageUrl="https://scontent.fkul14-1.fna.fbcdn.net/v/t1.6435-0/cp0/c120.0.721.721a/s75x225/80753428_2683955975023386_4622595351323344896_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=ca434c&_nc_ohc=xubc2eiOmzkAX-Nvgrj&_nc_ht=scontent.fkul14-1.fna&tp=28&oh=eae9a2e5a094792cd66b8773beb279aa&oe=60BE72B8" text="Javascript Developer" />
             </div>
+            <div className="mt-20"></div>
         </div>
 
     )
