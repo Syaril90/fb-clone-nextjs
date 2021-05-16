@@ -6,6 +6,7 @@ function Posts() {
             <Post />
             <Post />
             <Post />
+            <div className="mt-20"></div>
         </div>
     )
 }
