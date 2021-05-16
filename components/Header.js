@@ -1,10 +1,13 @@
 import { SearchIcon, HomeIcon, VideoCameraIcon, ShoppingBagIcon, UserGroupIcon, ViewGridAddIcon } from '@heroicons/react/outline'
 import { TemplateIcon, ChatAltIcon, BellIcon, ChevronDownIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
+import AccountDropDown from './AccountDropDown'
+import { useState } from 'react';
 
 function Header() {
+    const [showAccountMenu, setShowAccountMenu] = useState(false)
     return (
-        <nav className="flex px-3 py-1 drop-shadow-md">
+        <nav className="flex px-3 py-1 shadow-md sticky">
             <div className="flex items-center w-3/12 space-x-2">
                 <Image className="object-cover" width={40} height={40} src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" />
                 <div className="flex space-x-1 p-2 items-center bg-gray-100 rounded-full">
@@ -36,8 +39,12 @@ function Header() {
                     <TemplateIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
                     <ChatAltIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
                     <BellIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
-                    <ChevronDownIcon className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
+                    <ChevronDownIcon onClick={() => setShowAccountMenu(!showAccountMenu)} className="w-10 h-10 bg-gray-100 py-2 rounded-full hover:bg-gray-300 cursor-pointer" />
                 </div>
+                {
+                    showAccountMenu && <AccountDropDown />
+                }
+
 
             </div>
         </nav>
