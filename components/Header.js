@@ -2,6 +2,7 @@ import { SearchIcon, HomeIcon, VideoCameraIcon, ShoppingBagIcon, UserGroupIcon, 
 import { TemplateIcon, ChatAltIcon, BellIcon, ChevronDownIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import AccountDropDown from './AccountDropDown'
+import HeaderCenterOption from './HeaderCenterOption'
 import { useState } from 'react';
 
 function Header() {
@@ -16,15 +17,15 @@ function Header() {
                 </div>
             </div>
 
-            <div className="flex w-full max-w-2xl  justify-center items-center text-gray-600">
-                <HomeIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
-                <VideoCameraIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
-                <ShoppingBagIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
-                <UserGroupIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
-                <ViewGridAddIcon className="flex-1 h-10 w-10 p-2 rounded-lg stroke-1 hover:bg-gray-100 cursor-pointer" />
+            <div className="flex flex-1 justify-center items-center text-gray-600">
+                <HeaderCenterOption Icon={HomeIcon} active={true}/>
+                <HeaderCenterOption Icon={VideoCameraIcon}/>
+                <HeaderCenterOption Icon={ShoppingBagIcon}/>
+                <HeaderCenterOption Icon={UserGroupIcon}/>
+                <HeaderCenterOption Icon={ViewGridAddIcon}/>
             </div>
 
-            <div className="flex flex-1 justify-end w-3/12">
+            <div className="flex justify-end w-3/12">
                 <div className="flex items-center hover:bg-gray-300 rounded-full p-2 cursor-pointer">
                     <Image
                         className="rounded-full object-cover"
@@ -44,8 +45,6 @@ function Header() {
                 {
                     showAccountMenu && <AccountDropDown />
                 }
-
-
             </div>
         </nav>
     )
